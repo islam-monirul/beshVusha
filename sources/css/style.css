@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+*{
+  font-family: 'Baloo Da 2', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+#reg_anchor{
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#login_anchor{
+  text-decoration: none;
+  color: red;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.banner{
+  position: relative;
+  padding: 150px 0 100px;
+  text-align: center;
+}
+
+.index_header{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.banner h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8EA4FD;
+}
+
+.about{
+  background-color: azure;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about h2{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #8EA4FD;
+}
+
+footer{
+  padding-top: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.navbar-collapse {
+  /* margin-top: 5px; */
+  text-align: right;
+}
+
+.navbar-collapse ul li .btn-primary {
+  padding: 5px 75px;
+}
+
+.navbar-collapse ul li .btn-outline-primary {
+  padding: 5px 80px;
+}
+
+.modal-backdrop {
+  z-index: 7;
+  background-color: #8EA4FD;
+}
+
+.shop_card:hover{
+  background-color: rgba(141, 163, 253, 0.1);
+}
