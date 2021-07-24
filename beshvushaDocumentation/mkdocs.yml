@@ -1,0 +1,32 @@
+site_name: BeshVusha Documentation
+
+nav:
+    - 'Home': 
+            Description: 'index.md'
+            Prerequisite: 'prerequisite.md'
+            How to Run?: 'howtorun.md'
+
+    - 'User':
+            Admin: 'admin.md'
+            Customer: 'customer.md'
+            Shop Owner: 'shopowner.md'
+    - 'Features':
+            Sign in/Sign Up: 'signinup.md'
+            Trending: 'trending.md'
+            Complaint Box: 'combox.md'
+            Shopping Cart: 'shopcart.md'
+            Wishlist : 'wishlist.md'
+            Rating : 'rating.md'
+            Review : 'review.md'
+            Searching: 'search.md' 
+            Order Filtering System: 'orderfilter.md'
+            Product Replacement Request: 'prorepreq.md'
+
+             
+        
+    - 'About Us':
+            About: 'about.md' 
+      
+        
+theme:
+  name: readthedocs
